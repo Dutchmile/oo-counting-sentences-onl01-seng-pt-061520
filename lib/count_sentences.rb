@@ -27,14 +27,8 @@ class String
   end
 
   def count_sentences
-    new_self = self.split("/W")
+    new_self = self.split(/\W/)
     binding.pry
-    self.each do |index|
-    if new_self[index] = ""
-      return 0
-    else
-      new_self.count
-    end
-  end
+    self.count
   end
 end
