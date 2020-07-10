@@ -36,4 +36,5 @@ class String
       new_self.count
     end
   end
+  end
 end
